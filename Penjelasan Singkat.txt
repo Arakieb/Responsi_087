@@ -1,0 +1,20 @@
+
+1.index.html
+Tampilan UI (user interface) aplikasi
+Terdapat tombol:
+Start → Memulai timer
+Stop → Menghentikan timer & menyimpan waktu
+Reset → Mengatur ulang ke 00:00
+
+2.style.css
+untuk mengatur tata letak agar timer di tengah layar dan mengubah warna,dll
+
+3.script.js
+Berisi logika utama seperti:
+Fungsi startTimer() untuk menjalankan hitungan
+Fungsi stopTimer() untuk menghentikan dan menyimpan waktu
+fungsi submitTime() untuk mengirim waktu ke php
+Fungsi resetTimer() untuk mengatur ulang
+
+4.save.php
+untuk menyimpan waktu yang dicatat dari timer dan menampilkan daftar waktu yang sudah dicatat dan menghapus semua log jika diinginkan
